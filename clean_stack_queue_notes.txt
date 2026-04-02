@@ -1,0 +1,37 @@
+Best Practices for Stacks and Queues
+
+STACKS
+
+1. Use for Reversible or Nested Problems
+Stacks follow LIFO.
+Used in recursion, backtracking, balanced parentheses, undo operations.
+
+2. Optimize Stack Size
+Avoid overflow by defining proper size or using dynamic structures.
+
+3. Avoid Infinite Loops in Recursion
+Always define a base case.
+
+4. Push and Pop Atomically
+Use thread-safe structures in multithreading.
+
+5. Check Underflow and Overflow
+Always validate before operations.
+
+6. Use Collections Framework
+Prefer built-in classes like Stack, Deque, LinkedList.
+
+7. Track Min/Max
+Use an extra stack to track values in O(1).
+
+QUEUES / DEQUE
+
+1. Use Deque instead of Stack
+
+2. Use for FIFO operations
+
+3. Avoid overflow/underflow
+
+4. Prefer Circular Queue
+
+5. Use Built-in Libraries
